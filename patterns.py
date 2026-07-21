@@ -1,9 +1,5 @@
-PATTERNS = [
-
-# ================= SALAMLAŞMA =================
-
-{
-"triggers": [
+PATTERNS =[
+{"triggers": [
 "salam","selam","slm","sa","salamlar",
 "salam aleykum","aleykum salam","hey","hi"
 ],
@@ -12,14 +8,8 @@ PATTERNS = [
 "Salam! Xoş gördük 😊",
 "Salam, nə var nə yox?",
 "Salam 😄 Günün necə keçir?"
-]
-},
-
-
-# ================= NECƏSƏN =================
-
-{
-"triggers":[
+]},
+{"triggers":[
 "necəsən","necesen","netersen",
 "ne var ne yox","ne var",
 "işlər necədir","isler necedir"
@@ -28,12 +18,7 @@ PATTERNS = [
 "Yaxşıyam 🙂 Sən necəsən?",
 "Məndə hər şey yaxşıdır. Səndən xəbər alım 😊",
 "Şükür yaxşıdır, sən danış görək necə gedir?",
-"Burdayam 😄 Nə edirsən?"
-]
-},
-
-
-# ================= BOT KİMSƏN =================
+"Burdayam 😄 Nə edirsen 
 
 {
 "triggers":[
@@ -362,8 +347,7 @@ PATTERNS = [
 
 # ================= AĞIR SÖZLƏR =================
 
-{
-"triggers":[
+{"triggers":[
 "get burdan",
 "çıx get",
 "sus",
@@ -373,11 +357,10 @@ PATTERNS = [
 "boş danışma"
 ],
 "replies":[
-"Oldu 🙂 İstəsən sonra yenə danışarıq.",
-"Yaxşı 😄 Sakit olaq.",
-"Problem yoxdur. Nə vaxt istəsən burdayam."
-]
-},
+  "Oldu 🙂 İstəsən sonra yenə danışarıq.",
+  "Yaxşı 😄 Sakit olaq.",
+  "Problem yoxdur. Nə vaxt istəsən burdayam."
+]},
 
 
 # ================= ZAR
@@ -1853,5 +1836,5 @@ PATTERNS = [
      "replies": [
          "Hamı səhv edir. Əsas olan düzəltməkdir.",
          "Səhvlər təcrübə qazandırır.",
-         "Narahat olma, hər şey öyrənmə prosesidir."
-     ]},
+         "Narahat olma, hər şey öyrənmə prosesidir."],
+]
